@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #040d2b; /* Cor de fundo geral */
+    background-color: #040d2b; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 120%;
     display: flex;
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #00000033; /* Cor de fundo do menu */
+    background-color: #00000033; 
     color: #00000033;
     padding: 40px 50px;
     width: 65%;
@@ -23,10 +23,10 @@ header {
 }
 
 header img {
-    max-height: 100px; /* Limite máximo de altura */
-    max-width: 100%; /* O logo pode crescer até o limite do contêiner */
-    height: auto; /* Permite que a altura se ajuste automaticamente */
-    width: auto; /* Permite que a largura se ajuste automaticamente */
+    max-height: 100px; 
+    max-width: 100%; 
+    height: auto; 
+    width: auto; 
 }
 
 .nav-buttons {
@@ -52,7 +52,7 @@ header img {
 
 .main-content {
     flex-grow: 1;
-    background-color: #20202033; /* Cor de fundo da seção das matérias */
+    background-color: #20202033; 
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -108,7 +108,7 @@ h4{
 body1 {
     margin: 0;
     padding: 0;
-    background-color: #040d2b; /* Cor de fundo */
+    background-color: #040d2b; 
     font-family: Kodchasan, sans-serif;
     font-size: 120%;
     display: flex;
@@ -132,7 +132,7 @@ body1 {
 
 .input-container {
     display: flex;
-    align-items: center; /* Alinha os itens verticalmente no centro */
+    align-items: center; 
     margin-top: 20px;
 }
 
@@ -166,7 +166,7 @@ body1 {
 
 
 h1, h2 {
-    color: #1c8fa7; /* Cor do texto */
+    color: #1c8fa7;
     margin: 0 0 20px;
 }
 
