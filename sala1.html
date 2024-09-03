@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala normal</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <div class="container" div>
+    <header>
+        <img src="logo trab diego.png" onclick="window.location.href='pag3.html'" alt="Logo"  height="500" width="300">
+        <div class="nav-buttons">
+        </div>
+        <h4></h4>
+    </header>
+    <div class="chat-container">
+        <input type="text" id="chat-input" placeholder="Digite sua mensagem aqui..." />
+        <button id="send-button">Enviar</button>
+    </div>
+
+    <style>
+        .chat-container {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chat-input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#send-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #0056b3;
+}
+    </style>
+
+    <script>
+        document.getElementById('send-button').addEventListener('click', function() {
+    const message = document.getElementById('chat-input').value;
+    if (message) {
+        alert("Mensagem enviada: " + message);
+        document.getElementById('chat-input').value = '';
+    } else {
+        alert("Por favor, digite uma mensagem.");
+    }
+});
+    </script>
+
+</html>
